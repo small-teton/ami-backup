@@ -1,0 +1,28 @@
+{
+  "name": "ami-backup",
+  "version": "1.0.0",
+  "description": "Back up EC2 instances by Snapshot/AMI. Capable of managing backup retention period.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node bin/ami-backup.js"
+  },
+  "bin": {
+    "ami-backup": "bin/ami-backup"
+  },
+  "keywords": [
+    "aws",
+    "ami",
+    "backup"
+  ],
+  "author": "small-teton",
+  "license": "Apache License Version 2.0",
+  "dependencies": {
+    "async": "^1.5.0",
+    "aws-sdk": "^2.2.15",
+    "commander": "^2.9.0",
+    "config": "^1.16.0",
+    "js-yaml": "^3.4.3",
+    "lodash": "^3.10.1",
+    "winston": "^2.1.0"
+  }
+}

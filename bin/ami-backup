@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var ami_backup = require('../lib/ami-backup');
+//ami_backup.run();
