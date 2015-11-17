@@ -10,16 +10,12 @@
     "ami-backup": "bin/ami-backup"
   },
   "repository": {
-    {
-      "type": "git",
-      "url": "https://github.com/small-teton/ami-backup.git"
-    }
+    "type": "git",
+    "url": "https://github.com/small-teton/ami-backup.git"
   },
   "bugs": {
-    {
-      "url" : "https://github.com/small-teton/ami-backup/issues",
-      "email" : "vendaval.dev@gmail.com"
-    }
+    "url" : "https://github.com/small-teton/ami-backup/issues",
+    "email" : "vendaval.dev@gmail.com"
   },
   "keywords": [
     "aws",
