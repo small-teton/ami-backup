@@ -4,5 +4,4 @@
 
 var path = require('path');
 
-var ami_backup = require(path.join(__dirname, '../lib/ami-backup');
-//ami_backup.run();
+var ami_backup = require(path.join(__dirname, '../lib/ami-backup'));
