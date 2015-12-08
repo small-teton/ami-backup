@@ -2,5 +2,7 @@
 
 'use strict';
 
-var ami_backup = require('../lib/ami-backup');
+var path = require('path');
+
+var ami_backup = require(path.join(__dirname, '../lib/ami-backup');
 //ami_backup.run();
