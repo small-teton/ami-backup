@@ -1,6 +1,6 @@
 {
   "name": "ami-backup",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Back up EC2 instances by Snapshot/AMI. Capable of managing backup retention period.",
   "main": "app.js",
   "scripts": {
